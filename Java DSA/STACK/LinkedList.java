@@ -59,18 +59,18 @@ public class LinkedList {
 
   public static void main(String[] args) {
 
-    Stack s = new Stack();
-
-    s.push(1);
-    s.push(2);
-    s.push(3);
+    Stack.push(1);
+    Stack.push(2);
+    Stack.push(3);
+    Stack.push(4);
+    Stack.push(5);
 
     System.out.println();
 
-    while (!s.isEmpty()) {
+    while (!Stack.isEmpty()) {
       System.out.println();
-      System.out.println(s.peek());
-      s.pop();
+      System.out.println(Stack.peek());
+      Stack.pop();
     }
 
   }
